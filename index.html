@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="fr" class="dark">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -107,7 +107,41 @@
          </div>
       </div>
     </section>
-    </main>  
+    </main>
 
+    <section class="flex h-screen">
+        <div class="w-1/2 flex items-center p-10">
+        <div>
+            <h2 class="text-5xl">Montrez que vous êtes occupés</h2>
+            <p class="text-xl  mt-5">Empêchez les autres d'interrompre votre concentration profonde.
+                L'écran affiche que vous êtes occupés et quand vous serez à nouveau disponible.
+            </p>
+            <div class="flex items-end mt-10">
+               <img src="src/assets/images/demo-one.png" alt="demo-one" class="w-32 h-32 object-comtain"> 
+               <div>
+                 <h3 class="text-xl">Activation instantanée</h3>
+                 <div class="text-sm mt-1">
+                    Activez et désactivez le statut BUSY manuellement avec un large boutton.
+                   fonctionne entièrement hors ligne, sans logiciel suplémentaire requis.
+                 </div>
+               </div>
+            </div>
+
+            <div class="flex items-end mt-5">
+               <img src="src/assets/images/demo-two.png" alt="demo-two" class="w-32 h-32 object-comtain"> 
+               <div>
+                 <h3 class="text-xl">Set timer</h3>
+                 <div class="text-sm mt-1">
+                    Set an optionnal expiration timer BUSY using the scroll wheel
+                    to let others know when you'll be available again.
+                 </div>
+               </div>
+            </div>
+        </div>
+    </div>
+    <div class="w-1/2 relative">
+        <video src="/src/assets/images/busy.mp4" autoplay loop muted class="absolute -z-10 object-cover w-full h-screen" ></video>
+    </div>
+    </section>
 </body>
 </html>
